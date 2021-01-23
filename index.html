@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script type="text/javascript">
+    var today = new Date();
+    var start_from = today.getFullYear() + '/' + (today.getMonth() + 1) + '/' + today.getDate();
+    const q = '松江';
+    
+    var url = `https://connpass.com/search/?q=${q}&start_from=${start_from}&start_to=`;
+    location.href = url;
+  </script>
+</body>
+</html>
